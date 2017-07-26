@@ -23,7 +23,6 @@
   * onSaveInstanceState()
   * onStop()
   * onDestroy()
-  * onRestart()
   * onAttachFragment()
 6. Yukarıdaki methodların içerisine Log.e methodunu kullanarak; ilk string'e kendinizin belirlediği bir String TAG,
 ikinci String'e ise method isimlerini yazınız.
