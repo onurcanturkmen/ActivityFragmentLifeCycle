@@ -23,6 +23,7 @@
   * onSaveInstanceState()
   * onStop()
   * onDestroy()
+  * onRestart()
   * onAttachFragment()
 6. Yukarıdaki methodların içerisine Log.e methodunu kullanarak; ilk string'e kendinizin belirlediği bir String TAG,
 ikinci String'e ise method isimlerini yazınız.
@@ -42,7 +43,7 @@ ikinci String'e ise method isimlerini yazınız.
   * onPause()
   * onStop()
   * onDestroy()
-  * onRestart()
+
  11. Yukarıdaki methodların içerisine Log.e methodunu kullanarak; ilk string'e kendinizin belirlediği bir String TAG,
 ikinci String'e ise method isimlerini yazınız.
 12. Log'ları yorumlayarak bir Fragment'ı XML içerisinde eklemek ile Activity içerisinde, ID kullanarak, çalışma zamanında (run time)
