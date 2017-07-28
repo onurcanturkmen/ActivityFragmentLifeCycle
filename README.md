@@ -1,3 +1,9 @@
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+                                    CEVAPLAR EN ALTTADIR
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
 # ActivityFragmentLifeCycle
 
 # Amaç
@@ -55,3 +61,23 @@ silerek README.md içerisine bu bilgileri yazınız.
 16. Yazdığınzı kodları Push'layınız. Ve bu adres üzerindeki ana projeye Pull Request (PR) atınız.
 
 # En başarılı PR proje'ye "orjinal cevap" olarak kabul edilecektir.
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+                                CEVAPLAR
+
+12. Programmatically olarak eklenen Fragmentin methotları, XML içerisinde eklenen Fragmentlerin methotlarına göre 'genellikle' daha önce çalışmaktadır.
+Bu da Programmatically eklenen Fragmentin daha önce oluşturulduğunun, daha önce durdurulduğunun vs. göstergesidir.
+
+13. Sayfa yapısının çok fazla değişmediği, yalnızca içeriğin ve basit noktaların değiştiği durumlarda Fragment kullanmak daha doğrudur.
+Ancak genel anlamda tasarımın ve yapının değişeceği durumlarda yeni bir Activity oluşturmak daha doğru bir yaklaşım olabilir.
+Activity'nin iş yükü, Fragmente göre daha fazladır.
+
+14. Bir Activity içerisinde kaç adet Fragment bulunacağı bilinmiyorsa, en doğru yaklaşım programmatically eklemektir.
+Sayfa düzeni belliyse ve dolayısıyla oluşacak Fragment sayısı ve yapısı belliyse XML'den eklemek daha kolay bir yaklaşım olur.
+
+15. Programmatically eklenen fragmentler çağırıldıkları zaman çalışırlar.
+XML tarafında oluşturulan Fragmentler ise Activity çalıştığı zaman çalıştırılır.
+Dolayısıyla XML tarafındaki Fragmentler kullanılmayacak olsalar bile Activity ile paralel olarak çalışacaklarından zaman kaybına sebep olurlar
+Programmatically eklenenler ise ihtiyaç anında oluşturulacağından, Activity ayağa kalkarken zaman kaybına sebep olmazlar
+Bunun dışında oluşturulma süresi olarak ikisinin arasında büyük bir fark yoktur.
